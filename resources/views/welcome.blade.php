@@ -1,10 +1,10 @@
+@extends('layouts.desain')
+@section('JudulPage','Welcome Page')
+
+@section('konten')
 <div class="container">
-
-<a href="./">home</a>
-<a href="./"teman>teman</a>
-
+    <h3>Welcome</h3>
+    
 </div>
+@endsection
 
-<div class="container">
-    <h3>welcome</h3>
-</div>

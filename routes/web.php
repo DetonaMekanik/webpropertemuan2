@@ -6,4 +6,4 @@ use App\Http\Controllers\temanController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/teman',[temanController::class,'index'])->name('Ambadre');
+Route::get('/teman',[temanController::class,'index'])->name('dtteman');
